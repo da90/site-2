@@ -1,0 +1,15 @@
+@import "normalize.css";
+@import "global/_global";
+@import "global/_variables";
+@import "modules/_l-hero";
+@import "modules/_btn";
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height:auto;
+}
