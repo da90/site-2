@@ -1,0 +1,12 @@
+.p-section {
+  padding: 1.2rem 0;
+
+  @mixin M {
+      padding: 5rem 0;
+  }
+
+  &--blue {
+    background-color: $mainBlue;
+    color:#fff;
+  }
+}

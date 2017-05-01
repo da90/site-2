@@ -1,5 +1,10 @@
 .l-hero {
+  border-bottom:12px solid $mainBlue;
   position: relative;
+
+  &__image {
+    display:block;
+  }
 
   &__txt {
     position: absolute;
@@ -11,20 +16,12 @@
   }
 
   &__title {
-    font-weight:300;
+    font-weight:400;
     color: $mainBlue;
-    font-size: 1.1rem;
+    font-size: 2.4rem;
     margin:0;
 
     @mixin S {
-      font-size: 2rem;
-    }
-
-    @mixin M {
-      font-size: 3.2rem;
-    }
-
-    @mixin L {
       font-size: 4.8rem;
     }
   }
@@ -32,11 +29,11 @@
   &__subtitle {
     font-weight:300;
     color: $mainBlue;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin:0;
 
     @mixin S {
-      font-size: 2.9rem;
+      font-size: 2rem;
     }
   }
 
@@ -45,9 +42,21 @@
     color:#fff;
     text-shadow: 2px 2px 0 rgba(0, 0, 0 , .1);
     font-weight:100;
-    font-size:1.875rem;
+    font-size:1rem;
     margin-left:auto;
     margin-right:auto;
+
+    @mixin S {
+      font-size: 1.4rem;
+    }
+
+    @mixin M {
+      font-size: 1.6rem;
+    }
+
+    @mixin L {
+      font-size: 2rem;
+    }
   }
 
 }
