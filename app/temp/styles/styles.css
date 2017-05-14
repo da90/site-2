@@ -658,8 +658,16 @@ a {
   margin-right: -65px;
 }
 
+.row--gutters-l {
+  margin-right: -100px;
+}
+
 .row__gutter > div {
   padding-right: 65px;
+}
+
+.row--gutters-l > div {
+  padding-right:100px;
 }
 
 .row__b-margin-until-medium {
@@ -681,6 +689,11 @@ a {
     width: 37%;
   }
 
+  .row__m-6 {
+    float: left;
+    width: 50%;
+  }
+
   .row__m-8 {
     float: left;
     width: 66.33%;
@@ -693,7 +706,8 @@ a {
 
 .text-container p {
   line-height: 1.65;
-  margin: 1.8rem 0;
+  margin: 0 0 1.8rem 0;
+  font-weight: 300;
 }
 
 @media (min-width: 530px) {
@@ -705,6 +719,82 @@ a {
 
 .text-container p a {
   font-weight: 700;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  font-weight:300;
+  text-align: center;
+}
+
+@media (min-width: 530px) {
+
+  .section-title {
+    font-size: 3.6rem;
+  }
+}
+
+.section-title strong {
+  font-weight: 500;
+}
+
+.section-title__icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 530px) {
+
+  .section-title__icon {
+    margin-right: 1rem;
+    margin-left: 0;
+    margin-bottom: 0;
+    display: inline;
+  }
+}
+
+.before-icon {
+  position: relative;
+  padding-bottom: 2.4rem;
+}
+
+@media (min-width: 530px) {
+
+  .before-icon {
+    margin-left: 5.9735rem;
+  }
+}
+
+.before-icon__icon {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 530px) {
+
+  .before-icon__icon {
+    position: absolute;
+    left: -6rem;
+  }
+}
+
+.before-icon__title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-top: .7em;
+  margin-bottom: .8rem;
+  text-align: center;
+}
+
+@media (min-width: 530px) {
+
+  .before-icon__title {
+    margin-top: 1em;
+    font-size: 1.75rem;
+    text-align: left;
+  }
 }
 
 body {

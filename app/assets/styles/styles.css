@@ -9,6 +9,8 @@
 @import "modules/_headline";
 @import "modules/_row";
 @import "modules/_text-container";
+@import "modules/_section-title";
+@import "modules/_before-icon";
 
 body {
   font-family: "Roboto", sans-serif;
