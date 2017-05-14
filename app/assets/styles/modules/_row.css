@@ -1,6 +1,10 @@
 .row {
   @mixin clearfix;
 
+  &--t-padding {
+    padding-top:80px;
+  }
+
   &__gutter {
     margin-right: -65px;
   }
@@ -9,12 +13,20 @@
     margin-right: -100px;
   }
 
+  &--gutters-s {
+    margin-right: -45px;
+  }
+
   &__gutter > div {
     padding-right: 65px;
   }
 
   &--gutters-l > div {
     padding-right:100px;
+  }
+
+  &--gutters-s > div {
+    padding-right: 45px;
   }
 
   &__b-margin-until-medium {
@@ -48,6 +60,17 @@
 
     &__m-8--s {
       width: 63%;
+    }
+  }
+
+  /* begin equal height */
+  &--equal-height-m {
+    @mixin M {
+      display: flex;
+    }
+    & > div {
+      float: none;
+      display: flex;
     }
   }
 }

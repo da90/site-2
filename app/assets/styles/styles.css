@@ -11,6 +11,8 @@
 @import "modules/_text-container";
 @import "modules/_section-title";
 @import "modules/_before-icon";
+@import "modules/_testimonial";
+@import "modules/_footer";
 
 body {
   font-family: "Roboto", sans-serif;
