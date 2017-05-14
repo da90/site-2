@@ -5,8 +5,16 @@
     margin-right: -65px;
   }
 
+  &--gutters-l {
+    margin-right: -100px;
+  }
+
   &__gutter > div {
     padding-right: 65px;
+  }
+
+  &--gutters-l > div {
+    padding-right:100px;
   }
 
   &__b-margin-until-medium {
@@ -26,6 +34,11 @@
 
     &__m-4--l {
       width:37%;
+    }
+
+    &__m-6 {
+      float:left;
+      width:50%;
     }
 
     &__m-8 {

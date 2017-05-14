@@ -1,0 +1,33 @@
+.before-icon {
+  position: relative;
+  padding-bottom: 2.4rem;
+
+  @mixin S {
+      margin-left: 5.9735rem;
+  }
+
+  &__icon {
+
+    display: block;
+    margin: 0 auto;
+
+    @mixin S {
+      position:absolute;
+      left:-6rem;
+    }
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: .7em;
+    margin-bottom: .8rem;
+    text-align: center;
+
+    @mixin S {
+          margin-top:1em;
+          font-size: 1.75rem;
+          text-align: left;
+    }
+  }
+}
