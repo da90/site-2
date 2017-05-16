@@ -1171,6 +1171,19 @@ transition: background-color .3s ease-out;
   }
 }
 
+.reveal-item {
+  opacity: 0;
+  transition: all 1.1s ease-out;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.reveal-item--vis {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #333;
