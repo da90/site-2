@@ -962,7 +962,12 @@ transition: background-color .3s ease-out;
 @media (min-width: 800px) {
 
   .header {
+    position: fixed;
     background-color: rgba(47, 85, 114, 0.4);
+  }
+
+  .header--dark {
+    background-color: rgba(23, 51, 72, .85);
   }
 }
 
@@ -978,6 +983,9 @@ transition: background-color .3s ease-out;
   left: 50%;
   -webkit-transform: translateX(-50%) scale(.8);
           transform: translateX(-50%) scale(.8);
+  transition: -webkit-transform .3s ease-out;
+  transition: transform .3s ease-out;
+  transition: transform .3s ease-out, -webkit-transform .3s ease-out;
   -webkit-transform-origin: 50% 0%;
           transform-origin: 50% 0%;
   position: absolute;
@@ -991,6 +999,11 @@ transition: background-color .3s ease-out;
     left: auto;
     -webkit-transform: translateX(0);
             transform: translateX(0);
+  }
+
+  .header--dark .header__logo {
+    -webkit-transform: scale(.55);
+            transform: scale(.55);
   }
 }
 
@@ -1168,6 +1181,10 @@ transition: background-color .3s ease-out;
   .a_nav a {
     background-color: transparent;
     font-size: 1rem;
+  }
+
+  .a_nav a.is-current-link {
+    color: #fabb69;
   }
 }
 
