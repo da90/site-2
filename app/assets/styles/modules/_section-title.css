@@ -15,6 +15,11 @@ strong {
   color: $mainBlue;
 }
 
+&--margin {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
 &__icon {
   display: block;
   margin-left: auto;
