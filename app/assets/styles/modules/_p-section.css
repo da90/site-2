@@ -21,10 +21,12 @@
   &--t {
     background-color: #e0e6ef;
     @mixin M{
-      background-image: url("/assets/images/testimonials-bg.jpg");
-      background-position: top center;
-      background-repeat: no-repeat;
-      background-size: cover;
+      &.lazyloaded {
+        background-image: url("/assets/images/testimonials-bg.jpg");
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     }
 
   }
