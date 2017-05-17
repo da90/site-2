@@ -63,7 +63,8 @@
     }
   }
 
-  /* begin equal height */
+  /* begin equal height flexbox + modernizr flexbox fix for older browsers */
+  /* .flexbox &--equal-height-m */
   &--equal-height-m {
     @mixin M {
       display: flex;

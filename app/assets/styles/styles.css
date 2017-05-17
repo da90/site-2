@@ -19,7 +19,9 @@
 @import "modules/_modal";
 @import "modules/_social-icons";
 
-body {
+html, body {
+  margin: 0;
+  height: 100%;
   font-family: "Roboto", sans-serif;
   color: #333;
 }
